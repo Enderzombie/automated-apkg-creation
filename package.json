@@ -1,0 +1,25 @@
+{
+  "name": "automated-apkg-creation",
+  "version": "1.0.0",
+  "description": "Create an automated Anki deck (apkg file) from data in a json file!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/Enderzombie/",
+  "license": "MIT",
+  "dependencies": {
+    "anki-apkg-export": "^4.0.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enderzombie/automated-apkg-creation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Enderzombie/automated-apkg-creation/issues"
+  },
+  "homepage": "https://github.com/Enderzombie/automated-apkg-creation#readme"
+}

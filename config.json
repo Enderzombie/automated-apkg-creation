@@ -1,0 +1,16 @@
+{
+    "decks": [
+        {
+            "dataJson": "data1.json",
+            "deckName": "example1"
+        },
+        {
+            "dataJson": "data2.json",
+            "deckName": "example2"
+        },
+        {
+            "dataJson": "data3.json",
+            "deckName": "example3"
+        }
+    ]
+}

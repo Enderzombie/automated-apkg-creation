@@ -1,0 +1,8 @@
+{
+    "decks": [
+        {
+            "dataJson": "example.json",
+            "deckName": "example"
+        }
+    ]
+}

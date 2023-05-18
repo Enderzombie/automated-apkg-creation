@@ -1,0 +1,42 @@
+{
+    "cards": [
+        {
+            "front": "example1",
+            "back": "example1",
+            "tags": ["example1", "example2", "example3"]
+        },
+        {
+            "front": "example2",
+            "back": "example2",
+            "tags": ["example1", "example2"]
+        },
+        {
+            "front": "example3",
+            "back": "example3",
+            "tags": ["example1"]
+        },
+        {
+            "front": "example4",
+            "back": "example4"
+        },
+        {
+            "front": "example5",
+            "back": "example5"
+        },
+        {
+            "front": "example6",
+            "back": "example6",
+            "tags": ["example1"]
+        },
+        {
+            "front": "example7",
+            "back": "example7",
+            "tags": ["example1", "example2"]
+        },
+        {
+            "front": "example8",
+            "back": "example8",
+            "tags": ["example1", "example2", "example3"]
+        }
+    ]
+}
