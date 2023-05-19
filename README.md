@@ -149,7 +149,10 @@ Create a json file with the data converted by ChatGPT and follow steps 3 to 6.
 ### Example (see `/chatgpt_prompts/convertDataToCorrectJson.txt`):
 You are supposed to convert two data packets into one json data set. Don't give me any code, just the properly converted json file.
 The format of the json file:
+
+
 \#\#\#
+```json
 {
     "cards": [
         {
@@ -158,10 +161,13 @@ The format of the json file:
         }
     ]
 }
+```
 \#\#\#
 
 first data packet for the front values of the json file:
+
 \#\#\#
+
 frontCard1
 
 frontCard2
@@ -181,10 +187,13 @@ frontCard8
 frontCard9
 
 frontCard10
+
 \#\#\#
 
 second data packet for the back values of the json file:
+
 \#\#\#
+
 backCard1
 
 backCard2
@@ -204,10 +213,13 @@ backCard8
 backCard9
 
 backCard10
+
 \#\#\#
 
 Example for the beginning of the json file:
+
 \#\#\#
+```json
 {
     "cards": [
         {
@@ -221,11 +233,12 @@ Example for the beginning of the json file:
         ...
     ]
 }
+```
 \#\#\#
 
 ### Output (see `/chatgpt_prompts/convertDataToCorrectJsonOutput.txt`):
 Here is the properly converted JSON file combining the front and back values:
-
+```json
 {
   "cards": [
     {
@@ -270,7 +283,7 @@ Here is the properly converted JSON file combining the front and back values:
     }
   ]
 }
-
+```
 Please note that this example includes the first two data packets for demonstration purposes. The remaining cards follow the same pattern with the corresponding front and back values.
 
 *(ChatGPT 3.5, request sent on: 20.05.2023)*
