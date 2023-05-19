@@ -1,0 +1,75 @@
+You are supposed to convert two data packets into one json data set. Don't give me any code, just the properly converted json file.
+The format of the json file:
+###
+{
+    "cards": [
+        {
+            "front": "example",
+            "back": "example"
+        }
+    ]
+}
+###
+
+first data packet for the front values of the json file:
+###
+frontCard1
+
+frontCard2
+
+frontCard3
+
+frontCard4
+
+frontCard5
+
+frontCard6
+
+frontCard7
+
+frontCard8
+
+frontCard9
+
+frontCard10
+###
+
+second data packet for the back values of the json file:
+###
+backCard1
+
+backCard2
+
+backCard3
+
+backCard4
+
+backCard5
+
+backCard6
+
+backCard7
+
+backCard8
+
+backCard9
+
+backCard10
+###
+
+Example for the beginning of the json file:
+###
+{
+    "cards": [
+        {
+            "front": "frontCard1",
+            "back": "backCard1"
+        },
+        {
+            "front": "frontCard2",
+            "back": "backCard2"
+        },
+        ...
+    ]
+}
+###

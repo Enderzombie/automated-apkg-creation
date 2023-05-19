@@ -1,0 +1,48 @@
+Here is the properly converted JSON file combining the front and back values:
+
+{
+  "cards": [
+    {
+      "front": "frontCard1",
+      "back": "backCard1"
+    },
+    {
+      "front": "frontCard2",
+      "back": "backCard2"
+    },
+    {
+      "front": "frontCard3",
+      "back": "backCard3"
+    },
+    {
+      "front": "frontCard4",
+      "back": "backCard4"
+    },
+    {
+      "front": "frontCard5",
+      "back": "backCard5"
+    },
+    {
+      "front": "frontCard6",
+      "back": "backCard6"
+    },
+    {
+      "front": "frontCard7",
+      "back": "backCard7"
+    },
+    {
+      "front": "frontCard8",
+      "back": "backCard8"
+    },
+    {
+      "front": "frontCard9",
+      "back": "backCard9"
+    },
+    {
+      "front": "frontCard10",
+      "back": "backCard10"
+    }
+  ]
+}
+
+Please note that this example includes the first two data packets for demonstration purposes. The remaining cards follow the same pattern with the corresponding front and back values.

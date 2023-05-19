@@ -1,7 +1,7 @@
 {
   "name": "automated-apkg-creation",
-  "version": "1.0.0",
-  "description": "Create an automated Anki deck (apkg file) from data in a json file!",
+  "version": "1.1.0",
+  "description": "Create automated Anki decks (apkg files) from datas in json files!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

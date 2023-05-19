@@ -3,11 +3,19 @@ const AnkiExport = require('anki-apkg-export').default;
 const config = require('./config.json');
 
 function createDeck(dataJson, deckName) {
+    if (!dataJson && !deckName) {
+        return console.log(`You must store a json file and a deck name in the config.json!`);
+    }
+
+    if (!dataJson) {
+        return console.log(`You must store a json file in the config.json! (Deck name: ${deckName})`);
+    }
+
     var data;
     try {
         data = require(`./data/${dataJson}`);
     } catch (err) {
-        return console.log(`You must store a json file in the config.json! (Deck name: ${deckName})`);
+        return console.log(`The json file specified in config.json does not exist! (Deck name: ${deckName})`);
     }
     
     const forbiddenCharacters = [
